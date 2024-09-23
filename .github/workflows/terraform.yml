@@ -48,12 +48,6 @@ on:
   push:
   pull_request:
 
-
-defaults:
-  run:
-    working-directory: ${{ env.tf_actions_working_dir }}
-
-
 permissions:
   contents: read
   pull-requests: write
